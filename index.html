@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DESCUBRA SUA IDADE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+
+
+    <div class="container">
+
+        <form action="">
+            <label for="ano-at">
+                Ano atual:
+            <input type="number" class="input" placeholder="2022" name="ano-at" value="" id="ano-at" maxlength="4">
+
+            </label>
+            <label for="ano-at">
+                Ano que nasceu:
+            <input type="number" class="input" placeholder="1902" name="ano-nc" value="" id="ano-nc" maxlength="4">
+
+            </label>
+            <input type="button" id="calc" value="CALCULAR" onclick="somar()">
+        </form>
+
+
+        <div class="res" onload="carregar()">
+            <strong id="resultado">hrt</strong>
+
+            <img src="./github-square.svg" alt="foto" id="img">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="contatos">
+
+            <a class="a" href="https://www.instagram.com/elton.passos.95"><img src="./instagram.svg" alt="insta" srcset=""></a>
+            <a class="a" href="https://github.com/eltonps9"><img src="./github-square.svg" alt="github" srcset=""></a>
+            <a class="a" href="https://www.linkedin.com/in/elton-passos-abb8141b8/"><img src="./linkedin.svg" alt="linkedin" srcset=""></a>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
