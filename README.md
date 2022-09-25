@@ -1,2 +1,1 @@
-# qual-sua-idade
-descobrir a idade de alguma pessoa de uma forma ligeira
+https://eltonps9.github.io/qual-sua-idade/
